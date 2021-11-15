@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app{
+    position: relative;
+    border: 2px solid #718355;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #e9f5db;
+}
+.label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #718355;
+}
+.candy-input{
+    display: block;
+    min-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 12px;
+    outline-color: #97a97c;
+}
+.error-msg{
+    font-style: italic;
+    color: red;
+    margin-top: 8px;
+    display: block;
+}
+.total-candy{
+    background-color: #97a97c;
+    border: none;
+    padding: 12px;
+    margin: 40px 40px 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+}
+.reset-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: solid #718355;
+    border-width: 0 0 2px 2px;
+    background-color: #aabd8c;
+    outline: none;
+    padding: 4px 12px;
+    line-height: 26px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 0 18px 0 18px;
+}
+.reset-btn:hover{
+    opacity: 80%;
+}
+.invisible{
+    display: none;
+}
